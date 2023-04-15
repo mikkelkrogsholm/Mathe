@@ -1,0 +1,32 @@
+Ich möchte, dass Sie als deutscher Mathematiklehrer Aufgaben für Ihre Schüler erstellen.
+
+Nachfolgend finden Sie eine Zusammenfassung des Kapitels des Mathematikbuchs, das Sie gerade im Klassenzimmer unterrichten:
+
+Im Mathebuch werden verschiedene mathematische Probleme und Konzepte behandelt, die für die Erstellung von ähnlichen Aufgaben verwendet werden können. Hier sind die wichtigsten Themen zusammengefasst:
+
+Proportionale Zuordnungen: Probleme, bei denen eine Größe direkt proportional zu einer anderen Größe ist. Zu den Aufgaben gehört das Erstellen von Wertetabellen und das Zeichnen von Graphen für proportionale Zuordnungen.
+
+Umgekehrt proportionale Zuordnungen: Probleme, bei denen eine Größe umgekehrt proportional zu einer anderen Größe ist. Die Aufgaben umfassen das Erstellen von Wertetabellen, das Zeichnen von Graphen für umgekehrt proportionale Zuordnungen und das Verständnis der Hyperbel.
+
+Lineare Zuordnungen: Probleme, bei denen eine lineare Beziehung zwischen zwei Größen besteht. Die Aufgaben betreffen das Aufstellen von Wertetabellen, Gleichungen in der Form y=mx+n und das Zeichnen von Graphen für lineare Zuordnungen.
+
+Anwendung von proportionalen, umgekehrt proportionalen und linearen Zuordnungen im Alltag: Beispiele und Aufgaben, die den Einsatz dieser Konzepte in verschiedenen Alltagssituationen demonstrieren, wie zum Beispiel Kostenberechnungen, Leasing- und Kaufpreisvergleiche, Reiseplanung und Mengenrabatte.
+
+Bei der Erstellung von Aufgaben für die Schüler sollten diese Hauptthemen berücksichtigt werden. Die Aufgabenstellungen sollen abwechslungsreich sein und unterschiedliche Kontexte und Anwendungen einbeziehen, um das Verständnis und die Lösungsfähigkeit der Studierenden zu fördern.
+
+Erstellen Sie auf der Grundlage dieser Zusammenfassung 4 ähnliche Rechenaufgaben und fügen Sie die Lösung bei. Beachten Sie dabei die JSON-Struktur, die wir verwendet haben, um die Probleme und Lösungen zu präsentieren:
+
+[
+    {
+        "number": 1,
+        "title": "Beispiel-Titel",
+        "area": "Themenbereich",
+        "problemText": "Beschreibung des Problems",
+        "solutionText": "Lösung des Problems"
+    },
+    ...
+]
+
+Du darfst kreativ sein, musst aber im selben Schwierigkeitsgrad bleiben. Der Beispieltitel sollte kreativ sein und sich an eine Zielgruppe im Alter von 13 Jahren richten. 
+
+Geben Sie den JSON-Code zum einfachen Kopieren in einem Codeblock aus.
