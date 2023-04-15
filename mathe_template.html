@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematik-Aufgaben</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Mathematik-Aufgaben</h1>
+        <div id="problem-container" class="my-4">
+            {% for problem in problems %}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Problem {{ problem.number }}: {{ problem.title }}
+                    </h5>
+                    <h6 class="card-title">{{ problem.area }}</h6>
+                    <p>{{ problem.problemText }}</p>
+                    <button class="btn btn-primary" onclick="toggleSolution('solution{{ problem.number }}')">Lösung anzeigen</button>
+                    <div class="mt-3 hidden" id="solution{{ problem.number }}">
+                        <div class="card card-body">
+                            Lösung: {{ problem.solutionText }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        function toggleSolution(solutionId) {
+            var solutionElement = document.getElementById(solutionId);
+            solutionElement.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

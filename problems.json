@@ -1,0 +1,72 @@
+[
+    {
+        "number": 1,
+        "title": "Schneller als der Wind",
+        "area": "Proportionale Zuordnungen",
+        "problemText": "Ein Fahrrad fährt mit einer Geschwindigkeit von 15 km/h. Wie weit kommt das Fahrrad in 3 Stunden? Erstelle eine Wertetabelle und zeichne einen Graphen, der die zurückgelegte Strecke in Abhängigkeit von der Zeit zeigt.",
+        "solutionText": "Da die Geschwindigkeit konstant ist, ist die Strecke direkt proportional zur Zeit. Wertetabelle: (0,0), (1,15), (2,30), (3,45). Graph: Eine gerade Linie, die bei (0,0) beginnt und bei (3,45) endet."
+    },
+    {
+        "number": 2,
+        "title": "Heliumballon-Party",
+        "area": "Umgekehrt proportionale Zuordnungen",
+        "problemText": "Ein Heliumballon kann 0,5 Kubikmeter Helium tragen. Je mehr Heliumballons man hat, desto weniger Kubikmeter Helium pro Ballon benötigt man, um alle Ballons zu füllen. Erstelle eine Wertetabelle für 1, 2, 3 und 4 Ballons und zeichne einen Graphen, der die Menge an Helium pro Ballon in Abhängigkeit von der Anzahl der Ballons zeigt.",
+        "solutionText": "Da die Gesamtmenge an Helium konstant ist, ist die Menge an Helium pro Ballon umgekehrt proportional zur Anzahl der Ballons. Wertetabelle: (1,0,5), (2,0,25), (3,0,167), (4,0,125). Graph: Eine Hyperbel, die bei (1,0,5) beginnt und sich der x-Achse nähert, während die Anzahl der Ballons zunimmt."
+    },
+    {
+        "number": 3,
+        "title": "Die magische Münzspur",
+        "area": "Lineare Zuordnungen",
+        "problemText": "Eine gerade Linie aus Münzen verläuft entlang einer Straße. Für jeden Meter gibt es zwei Münzen. Wie viele Münzen befinden sich auf einem 5 Meter langen Abschnitt der Straße? Stelle eine Wertetabelle und eine Gleichung in der Form y=mx+n auf und zeichne einen Graphen, der die Anzahl der Münzen in Abhängigkeit von der Streckenlänge zeigt.",
+        "solutionText": "Da die Anzahl der Münzen direkt proportional zur Streckenlänge ist, handelt es sich um eine lineare Zuordnung. Wertetabelle: (0,0), (1,2), (2,4), (3,6), (4,8), (5,10). Gleichung: y=2x+0. Graph: Eine gerade Linie, die bei (0,0) beginnt und bei (5,10) endet."
+    },
+    {
+        "number": 4,
+        "title": "Der süße Preis der Schokolade",
+        "area": "Anwendung von proportionalen, umgekehrt proportionalen und linearen Zuordnungen im Alltag",
+        "problemText": "Ein Geschäft verkauft Schokoladentafeln in drei verschiedenen Größen: klein (100 g), mittel (200 g) und groß (300 g). Der Preis ist direkt proportional zur Größe der Schokoladentafel. Eine kleine Tafel kostet 2 Euro. Wie viel kosten die mittlere und die große Tafel? Stelle eine Wertetabelle auf und berechne die Preise.",
+        "solutionText": "Da der Preis direkt proportional zur Größe der Schokoladentafel ist, können wir eine Wertetabelle erstellen. Wertetabelle: (100,2), (200, x), (300, y). Um die Preise für die mittlere und die große Tafel zu berechnen, multipliziere den Preis der kleinen Tafel mit dem Verhältnis der Größen. Mittlere Tafel: 2 Euro * (200 g / 100 g) = 4 Euro. Große Tafel: 2 Euro * (300 g / 100 g) = 6 Euro. Die mittlere Tafel kostet 4 Euro und die große Tafel kostet 6 Euro."
+    },
+    {
+        "number": 5,
+        "title": "Flinkes Füchschen",
+        "area": "Proportionale Zuordnungen",
+        "problemText": "Ein Fuchs legt in 4 Stunden 28 Kilometer zurück. Wie weit legt der Fuchs in 7 Stunden zurück? Erstelle eine Wertetabelle und berechne die zurückgelegte Strecke.",
+        "solutionText": "Da die Geschwindigkeit konstant ist, ist die Strecke direkt proportional zur Zeit. Wertetabelle: (0,0), (4,28), (7, x). Um die Strecke für 7 Stunden zu berechnen, finde das Verhältnis der Zeiten und multipliziere es mit der Strecke für 4 Stunden. Strecke für 7 Stunden: 28 km * (7 / 4) = 49 km. Der Fuchs legt in 7 Stunden 49 Kilometer zurück."
+    },
+    {
+        "number": 6,
+        "title": "Lichtermeer im Wohnzimmer",
+        "area": "Umgekehrt proportionale Zuordnungen",
+        "problemText": "Ein Raum benötigt 200 Watt an Leistung, um gut beleuchtet zu sein. Wenn du mehr Lampen mit gleicher Leistung verwendest, sinkt die Leistung jeder einzelnen Lampe. Erstelle eine Wertetabelle für 1, 2 und 4 Lampen und berechne die Leistung jeder Lampe.",
+        "solutionText": "Da die Gesamtleistung konstant ist, ist die Leistung jeder Lampe umgekehrt proportional zur Anzahl der Lampen. Wertetabelle: (1,200), (2,100), (4,50). Mit einer Lampe hat jede Lampe 200 Watt, mit zwei Lampen hat jede Lampe 100 Watt und mit vier Lampen hat jede Lampe 50 Watt."
+    },
+    {
+        "number": 7,
+        "title": "Eisverkäufer-Abenteuer",
+        "area": "Lineare Zuordnungen",
+        "problemText": "Ein Eisverkäufer verkauft pro Tag 20 Eiscremes und hat dabei 50 Euro Fixkosten. Jede Eiscreme wird für 3 Euro verkauft. Wie viel Gewinn erzielt der Eisverkäufer am Ende des Tages? Stelle eine Gleichung in der Form y=mx+n auf und berechne den Gewinn.",
+        "solutionText": "Da der Gewinn direkt proportional zur Anzahl der verkauften Eiscremes ist, handelt es sich um eine lineare Zuordnung. Gleichung: y = 3x - 50. Um den Gewinn am Ende des Tages zu berechnen, setze x = 20 ein: y = 3 * 20 - 50 = 10 Euro. Der Eisverkäufer erzielt am Ende des Tages einen Gewinn von 10 Euro."
+    },
+    {
+        "number": 8,
+        "title": "Zauberhafte Gartenarbeit",
+        "area": "Anwendung von proportionalen, umgekehrt proportionalen und linearen Zuordnungen im Alltag",
+        "problemText": "Ein Gärtner benötigt 6 Stunden, um 3 Bäume zu pflanzen. Wie viele Stunden benötigt der Gärtner, um 5 Bäume zu pflanzen? Erstelle eine Wertetabelle und berechne die benötigte Zeit.",
+        "solutionText": "Da die benötigte Zeit direkt proportional zur Anzahl der Bäume ist, können wir eine Wertetabelle erstellen. Wertetabelle: (0,0), (3,6), (5, x). Um die Zeit für 5 Bäume zu berechnen, finde das Verhältnis der Anzahl der Bäume und multipliziere es mit der Zeit für 3 Bäume. Zeit für 5 Bäume: 6 Stunden * (5 / 3) = 10 Stunden. Der Gärtner benötigt 10 Stunden, um 5 Bäume zu pflanzen."
+    },
+    {
+        "number": 9,
+        "title": "Sprudelnde Limonade",
+        "area": "Anwendung von proportionalen, umgekehrt proportionalen und linearen Zuordnungen im Alltag",
+        "problemText": "Ein Getränkehersteller produziert Limonade in Flaschen mit einem Fassungsvermögen von 500 ml und 1 Liter. Der Preis für die 500-ml-Flasche beträgt 1,50 Euro. Der Preis für die 1-Liter-Flasche ist direkt proportional zum Fassungsvermögen. Wie viel kostet die 1-Liter-Flasche? Berechne den Preis.",
+        "solutionText": "Da der Preis direkt proportional zum Fassungsvermögen ist, können wir das Verhältnis der Fassungsvermögen nutzen, um den Preis für die 1-Liter-Flasche zu berechnen. Preis für die 1-Liter-Flasche: 1,50 Euro * (1000 ml / 500 ml) = 3 Euro. Die 1-Liter-Flasche kostet 3 Euro."
+    },
+    {
+        "number": 10,
+        "title": "Geburtstagskuchen-Geheimnis",
+        "area": "Anwendung von proportionalen, umgekehrt proportionalen und linearen Zuordnungen im Alltag",
+        "problemText": "Ein Konditor backt Kuchen in zwei verschiedenen Größen: klein (4 Portionen) und groß (8 Portionen). Der Preis für den kleinen Kuchen beträgt 12 Euro. Der Preis für den großen Kuchen ist direkt proportional zur Anzahl der Portionen. Wie viel kostet der große Kuchen? Berechne den Preis.",
+        "solutionText": "Da der Preis direkt proportional zur Anzahl der Portionen ist, können wir das Verhältnis der Portionen nutzen, um den Preis für den großen Kuchen zu berechnen. Preis für den großen Kuchen: 12 Euro * (8 Portionen / 4 Portionen) = 24 Euro. Der große Kuchen kostet 24 Euro."
+    }
+]

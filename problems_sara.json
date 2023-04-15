@@ -1,0 +1,74 @@
+[
+    {
+      "Nummer": 1,
+      "title": "Der Kuchenwettbewerb",
+      "Bereich": "Addition",
+      "problemText": "Hanna hat 3 Kuchen gebacken. Lisa hat 4 Kuchen gebacken. Wie viele Kuchen haben sie zusammen?",
+      "solutionText": "Hanna und Lisa haben zusammen 7 Kuchen gebacken."
+    },
+    {
+      "Nummer": 2,
+      "title": "Der Gemüsemarkt",
+      "Bereich": "Subtraktion",
+      "problemText": "Auf dem Markt hat Peter 9 Tomaten verkauft und 3 übrig behalten. Wie viele Tomaten hatte er ursprünglich?",
+      "solutionText": "Peter hatte 12 Tomaten."
+    },
+    {
+      "Nummer": 3,
+      "title": "Die Pizzabestellung",
+      "Bereich": "Addition",
+      "problemText": "In der Pizzeria haben 5 Kinder je eine Pizza mit 4 Stücken bestellt. Wie viele Pizzastücke werden insgesamt benötigt?",
+      "solutionText": "Insgesamt werden 20 Pizzastücke benötigt."
+    },
+    {
+      "Nummer": 4,
+      "title": "Die Bonbonschachtel",
+      "Bereich": "Subtraktion",
+      "problemText": "In einer Schachtel waren 8 Bonbons. Hannah hat 2 Bonbons gegessen. Wie viele Bonbons sind noch in der Schachtel?",
+      "solutionText": "Es sind noch 6 Bonbons in der Schachtel."
+    },
+    {
+      "Nummer": 5,
+      "title": "Das Waffelrezept",
+      "Bereich": "Multiplikation",
+      "problemText": "Für ein Waffelrezept benötigt man 2 Eier. Wie viele Eier braucht man für 5 Waffelrezepte?",
+      "solutionText": "Man braucht 10 Eier."
+    },
+    {
+      "Nummer": 6,
+      "title": "Der Süßigkeitenkauf",
+      "Bereich": "Subtraktion",
+      "problemText": "Jonas hat 2 Euro und 50 Cent. Er möchte sich eine Tüte Gummibärchen für 1 Euro und 30 Cent kaufen. Wie viel Geld bleibt ihm übrig?",
+      "solutionText": "Jonas hat 1 Euro und 20 Cent übrig."
+    },
+    {
+      "Nummer": 7,
+      "title": "Die Taschengeldrechnung",
+      "Bereich": "Subtraktion",
+      "problemText": "Lena bekommt 10 Euro Taschengeld pro Woche. Sie hat sich eine CD für 6 Euro gekauft. Wie viel Taschengeld hat sie noch übrig?",
+      "solutionText": "Lena hat noch 4 Euro Taschengeld übrig."
+    },
+    {
+      "number": 8,
+      "title": "Die Keksdose",
+      "area": "Multiplikation",
+      "problemText": "In einer Keksdose sind 4 Kekse. Wie viele Kekse sind in 3 Keksdosen?",
+      "solutionText": "Es sind 12 Kekse."
+    },
+    {
+        "number": 9,    
+        "title": "Die Radtour",
+        "area": "Subtraktion",
+        "problemText": "Eine Radtour ist 24 Kilometer lang. Wenn Lukas 8 Kilometer geradelt ist, wie viele Kilometer bleiben ihm noch?",
+        "solutionText": "Lukas muss noch 16 Kilometer radeln."  
+    }, 
+    {
+        "number": 10,
+        "title": "Das Klassenfoto",
+        "area": "Multiplikation",
+        "problemText": "In der Klasse sind 4 Reihen mit jeweils 5 Schülerinnen und Schülern. Wie viele Schülerinnen und Schüler sind in der Klasse?",
+        "solutionText": "Es sind 20 Schülerinnen und Schüler in der Klasse."  
+    }
+]
+
+  

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematik-Aufgaben</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Mathematik-Aufgaben</h1>
+        <div id="problem-container" class="my-4">
+            
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Problem : Der Kuchenwettbewerb
+                    </h5>
+                    <h6 class="card-title"></h6>
+                    <p>Hanna hat 3 Kuchen gebacken. Lisa hat 4 Kuchen gebacken. Wie viele Kuchen haben sie zusammen?</p>
+                    <button class="btn btn-primary" onclick="toggleSolution('solution')">Lösung anzeigen</button>
+                    <div class="mt-3 hidden" id="solution">
+                        <div class="card card-body">
+                            Lösung: Hanna und Lisa haben zusammen 7 Kuchen gebacken.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Problem : Der Gemüsemarkt
+                    </h5>
+                    <h6 class="card-title"></h6>
+                    <p>Auf dem Markt hat Peter 9 Tomaten verkauft und 3 übrig behalten. Wie viele Tomaten hatte er ursprünglich?</p>
+                    <button class="btn btn-primary" onclick="toggleSolution('solution')">Lösung anzeigen</button>
+                    <div class="mt-3 hidden" id="solution">
+                        <div class="card card-body">
+                            Lösung: Peter hatte 12 Tomaten.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Problem : Die Pizzabestellung
+                    </h5>
+                    <h6 class="card-title"></h6>
+                    <p>In der Pizzeria haben 5 Kinder je eine Pizza mit 4 Stücken bestellt. Wie viele Pizzastücke werden insgesamt benötigt?</p>
+                    <button class="btn btn-primary" onclick="toggleSolution('solution')">Lösung anzeigen</button>
+                    <div class="mt-3 hidden" id="solution">
+                        <div class="card card-body">
+                            Lösung: Insgesamt werden 20 Pizzastücke benötigt.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Problem : Die Bonbonschachtel
+                    </h5>
+                    <h6 class="card-title"></h6>
+                    <p>In einer Schachtel waren 8 Bonbons. Hannah hat 2 Bonbons gegessen. Wie viele Bonbons sind noch in der Schachtel?</p>
+                    <button class="btn btn-primary" onclick="toggleSolution('solution')">Lösung anzeigen</button>
+                    <div class="mt-3 hidden" id="solution">
+                        <div class="card card-body">
+                            Lösung: Es sind noch 6 Bonbons in der Schachtel.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Problem : Das Waffelrezept
+                    </h5>
+                    <h6 class="card-title"></h6>
+                    <p>Für ein Waffelrezept benötigt man 2 Eier. Wie viele Eier braucht man für 5 Waffelrezepte?</p>
+                    <button class="btn btn-primary" onclick="toggleSolution('solution')">Lösung anzeigen</button>
+                    <div class="mt-3 hidden" id="solution">
+                        <div class="card card-body">
+                            Lösung: Man braucht 10 Eier.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Problem : Der Süßigkeitenkauf
+                    </h5>
+                    <h6 class="card-title"></h6>
+                    <p>Jonas hat 2 Euro und 50 Cent. Er möchte sich eine Tüte Gummibärchen für 1 Euro und 30 Cent kaufen. Wie viel Geld bleibt ihm übrig?</p>
+                    <button class="btn btn-primary" onclick="toggleSolution('solution')">Lösung anzeigen</button>
+                    <div class="mt-3 hidden" id="solution">
+                        <div class="card card-body">
+                            Lösung: Jonas hat 1 Euro und 20 Cent übrig.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Problem : Die Taschengeldrechnung
+                    </h5>
+                    <h6 class="card-title"></h6>
+                    <p>Lena bekommt 10 Euro Taschengeld pro Woche. Sie hat sich eine CD für 6 Euro gekauft. Wie viel Taschengeld hat sie noch übrig?</p>
+                    <button class="btn btn-primary" onclick="toggleSolution('solution')">Lösung anzeigen</button>
+                    <div class="mt-3 hidden" id="solution">
+                        <div class="card card-body">
+                            Lösung: Lena hat noch 4 Euro Taschengeld übrig.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Problem 8: Die Keksdose
+                    </h5>
+                    <h6 class="card-title">Multiplikation</h6>
+                    <p>In einer Keksdose sind 4 Kekse. Wie viele Kekse sind in 3 Keksdosen?</p>
+                    <button class="btn btn-primary" onclick="toggleSolution('solution8')">Lösung anzeigen</button>
+                    <div class="mt-3 hidden" id="solution8">
+                        <div class="card card-body">
+                            Lösung: Es sind 12 Kekse.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Problem 9: Die Radtour
+                    </h5>
+                    <h6 class="card-title">Subtraktion</h6>
+                    <p>Eine Radtour ist 24 Kilometer lang. Wenn Lukas 8 Kilometer geradelt ist, wie viele Kilometer bleiben ihm noch?</p>
+                    <button class="btn btn-primary" onclick="toggleSolution('solution9')">Lösung anzeigen</button>
+                    <div class="mt-3 hidden" id="solution9">
+                        <div class="card card-body">
+                            Lösung: Lukas muss noch 16 Kilometer radeln.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Problem 10: Das Klassenfoto
+                    </h5>
+                    <h6 class="card-title">Multiplikation</h6>
+                    <p>In der Klasse sind 4 Reihen mit jeweils 5 Schülerinnen und Schülern. Wie viele Schülerinnen und Schüler sind in der Klasse?</p>
+                    <button class="btn btn-primary" onclick="toggleSolution('solution10')">Lösung anzeigen</button>
+                    <div class="mt-3 hidden" id="solution10">
+                        <div class="card card-body">
+                            Lösung: Es sind 20 Schülerinnen und Schüler in der Klasse.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+        function toggleSolution(solutionId) {
+            var solutionElement = document.getElementById(solutionId);
+            solutionElement.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
